@@ -1,0 +1,49 @@
+*{
+	margin:0;
+	padding:0;
+}
+#glavni{
+	position:absolute;
+}
+#maze{
+	position:relative;
+	top:15mm;
+	left:190mm;
+}
+@font-face{
+	font-family:'Easter'; 
+	src:url('../font/Easter.ttf');
+}
+body{
+	background-image:url("../slike/ozadje.jpg");
+}
+#kosara{
+	width:420px;
+	height:210px;
+	margin:0 auto;
+	background-image:url("../slike/kosara.png");
+	position:relative;
+	top:150mm;
+}
+#jajca{
+	width:280px;
+	height:180px;
+	background-image:url("../slike/jajca3.png");
+	float:left;
+	margin-left:80px;
+	margin-top:-25px;
+	visibility:hidden;
+}
+.naslov{
+	text-align:center;
+	font-size:100px;
+	color:black;
+	font-family:'Easter';
+}
+
+#ozadje{
+	float:left;
+	position:relative;
+	top:-28mm;
+	left:-14mm;
+}
